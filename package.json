@@ -1,0 +1,21 @@
+{
+  "name": "composition",
+  "version": "1.0.0",
+  "engines" : { "node" : ">=6" },
+  "description": "Composition of functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/Composition.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cereceres/Composition/issues"
+  },
+  "homepage": "https://github.com/Cereceres/Composition#readme"
+}
