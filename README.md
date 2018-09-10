@@ -1,16 +1,17 @@
-# Composition
-Composition of functions
+# composing
+composing of functions
 
 ```js
-const composition = require('composition')
+const composing = require('composing')
 
-const composed = composition((r) => r * 2, (r) => r * 3)
+const composed = composing((r) => r * 2, (r) => r * 3)
 
 assert(composed(4)===24)
 
 // Example
-composition(JSON.parse, JSON.stringify)
+composing(JSON.parse, JSON.stringify)({})
+composing(JSON.stringify, JSON.parse)('{}')
 
 ```
 
-## Ccomposition(f[,otherFunctions]) -> Function
+## composing(f[,otherFunctions]) -> Function

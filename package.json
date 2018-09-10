@@ -1,5 +1,5 @@
 {
-  "name": "composition",
+  "name": "composing",
   "version": "1.0.0",
   "engines" : { "node" : ">=6" },
   "description": "Composition of functions",
